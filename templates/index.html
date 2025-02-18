@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diamond Price Prediction</title>
+</head>
+<body>
+    <h1>Predict Diamond Price</h1>
+    <form action="/predict" method="POST">
+        <label for="carat">Carat (Weight of Diamond):</label><br>
+        <input type="number" id="carat" name="Carat(Weight of Daimond)" step="0.01" required><br><br>
+      
+        <label for="cut">Cut (Quality):</label><br>
+        <input type="text" id="cut" name="Cut(Quality)" required><br><br>
+      
+        <label for="color">Color:</label><br>
+        <input type="text" id="color" name="Color" required><br><br>
+      
+        <label for="clarity">Clarity:</label><br>
+        <input type="text" id="clarity" name="Clarity" required><br><br>
+      
+        <label for="depth">Depth:</label><br>
+        <input type="number" id="depth" name="Depth" step="0.1" required><br><br>
+      
+        <label for="table">Table:</label><br>
+        <input type="number" id="table" name="Table" step="0.1" required><br><br>
+      
+        <label for="x">X (length):</label><br>
+        <input type="number" id="x" name="X(length)" step="0.01" required><br><br>
+      
+        <label for="y">Y (width):</label><br>
+        <input type="number" id="y" name="Y(width)" step="0.01" required><br><br>
+      
+        <label for="z">Z (Depth):</label><br>
+        <input type="number" id="z" name="Z(Depth)" step="0.01" required><br><br>
+      
+        <input type="submit" value="Predict Price">
+    </form>
+</body>
+</html>
